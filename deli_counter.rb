@@ -18,7 +18,7 @@ def take_a_number(katz_deli, new_customer)
   puts "Welcome, #{new_customer}. You are number #{number + 1} in line."
 end
 
-  def now_serving
+  def now_serving(katz_deli)
     if katz_deli.length >= 0
     puts "The line is currently:"
   else puts "There is nobody waiting to be served!"
