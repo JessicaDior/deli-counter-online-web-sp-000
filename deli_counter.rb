@@ -13,9 +13,9 @@ else
 end
 
 def take_a_number(katz_deli, new_customer)
-  katz_deli.length = number + 1
+  katz_deli.length = number
   katz_deli<<new_customer
-  puts "Welcome #{new_customer}. You are number #{number} in line."
+  puts "Welcome #{new_customer}. You are number #{number + 1} in line."
 end
 
   def now_serving
