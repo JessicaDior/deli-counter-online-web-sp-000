@@ -20,7 +20,7 @@ end
 
   def now_serving
     if katz_deli.length >= 0
-    puts "The line is currently: #{line(customer)}"
+    puts "The line is currently: #{katz_deli}"
   else puts "There is nobody waiting to be served!"
   end
 end
